@@ -10,5 +10,6 @@ public class DateExample {
         Period age=Period.between(now,birthDay);
         System.out.println("age is"+age);
         System.out.println("using inline commenting");
+        System.out.println("copy1 from hello");
     }
 }
