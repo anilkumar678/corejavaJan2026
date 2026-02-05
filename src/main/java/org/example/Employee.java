@@ -11,6 +11,10 @@ public class Employee {
         return salary;
     }
 
+    public int getAge() {
+        return age;
+    }
+
     public Employee(int id, String name, int age, String gender, double salary) {
         this.id = id;
         this.name = name;
