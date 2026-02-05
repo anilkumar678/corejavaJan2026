@@ -9,5 +9,6 @@ public class DateExample {
         LocalDate birthDay=LocalDate.of(1988,11,12);
         Period age=Period.between(now,birthDay);
         System.out.println("age is"+age);
+        System.our.println("using inline commenting");
     }
 }
