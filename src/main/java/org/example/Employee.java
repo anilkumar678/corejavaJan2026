@@ -3,6 +3,11 @@ package org.example;
 public class Employee {
     private int id;
     private String name;
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
     private int age;
     private String gender;
     private double salary;
