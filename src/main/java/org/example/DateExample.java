@@ -10,5 +10,6 @@ public class DateExample {
         Period age=Period.between(now,birthDay);
         System.out.println(now);
         System.out.println("age is"+age);
+        System.out.println("cpy2 from hellog");
     }
 }
