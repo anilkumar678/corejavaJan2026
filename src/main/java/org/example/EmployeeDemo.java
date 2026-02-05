@@ -17,6 +17,7 @@ public class EmployeeDemo {
         Map<String,Double> genderCount=employees.stream().
                 collect(Collectors.groupingBy(Employee::getGender,Collectors.averagingDouble(Employee::getSalary)));
         System.out.println(genderCount);
+        System.out.println(employees);
 
     }
 }

@@ -8,8 +8,8 @@ public class DateExample {
         LocalDate  now=LocalDate.now();
         LocalDate birthDay=LocalDate.of(1988,11,12);
         Period age=Period.between(now,birthDay);
+        System.out.println(now);
         System.out.println("age is"+age);
-        System.out.println("using inline commenting");
-        System.out.println("copy1 from hello");
+        System.out.println("cpy2 from hellog");
     }
 }
